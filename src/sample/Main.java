@@ -82,6 +82,7 @@ public class Main extends Application {
         primaryStage.setScene(scene);
         primaryStage.show();
     }
+    //
     public boolean checkPassword(String password){
         if (password.toString().equals("password123")) {
             return true;
